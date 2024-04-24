@@ -6,6 +6,7 @@ raw_data
 
 src/runs
 src/wandb
+src
 src/run*.sh
 src.*.log
 *.log
