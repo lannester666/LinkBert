@@ -1,8 +1,13 @@
 *.pyc
 
 raw_data
-data
-data*
+# data
+# data*
 
 src/runs
 src/wandb
+*.log
+*.out
+
+stanza
+stanza_resources

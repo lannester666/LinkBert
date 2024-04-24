@@ -1,0 +1,465 @@
+{"id": 25, "chemical": "Famotidine", "disease": "delirium"}
+{"id": 26, "chemical": "Indomethacin", "disease": "hypotension"}
+{"id": 27, "chemical": "cyclosporine", "disease": "thrombotic microangiopathy"}
+{"id": 27, "chemical": "corticosteroid", "disease": "systemic sclerosis"}
+{"id": 27, "chemical": "tacrolimus", "disease": "systemic sclerosis"}
+{"id": 28, "chemical": "methamphetamine", "disease": "psychosis"}
+{"id": 28, "chemical": "methamphetamine", "disease": "bipolar disorder"}
+{"id": 28, "chemical": "methamphetamine", "disease": "antisocial personality disorder"}
+{"id": 29, "chemical": "levodopa", "disease": "dyskinetic"}
+{"id": 30, "chemical": "cyclophosphamide", "disease": "cystitis"}
+{"id": 30, "chemical": "cyclophosphamide", "disease": "pain"}
+{"id": 30, "chemical": "cyclophosphamide", "disease": "edema"}
+{"id": 31, "chemical": "clopidogrel", "disease": "hepatitis"}
+{"id": 32, "chemical": "dexamethasone", "disease": "peripheral neuropathy"}
+{"id": 32, "chemical": "Bortezomib", "disease": "peripheral neuropathy"}
+{"id": 33, "chemical": "Bisphenol A", "disease": "anxiety"}
+{"id": 34, "chemical": "isoproterenol", "disease": "cardiotoxicity"}
+{"id": 35, "chemical": "dexamethasone", "disease": "Peripheral neuropathy"}
+{"id": 35, "chemical": "dexamethasone", "disease": "myelosuppression"}
+{"id": 35, "chemical": "dexamethasone", "disease": "deep vein thrombosis"}
+{"id": 35, "chemical": "lenalidomide", "disease": "myelosuppression"}
+{"id": 35, "chemical": "lenalidomide", "disease": "Peripheral neuropathy"}
+{"id": 35, "chemical": "lenalidomide", "disease": "deep vein thrombosis"}
+{"id": 36, "chemical": "ifosfamide", "disease": "cystitis"}
+{"id": 36, "chemical": "ifosfamide", "disease": "hemorrhagic"}
+{"id": 37, "chemical": "levodopa", "disease": "dyskinesia"}
+{"id": 38, "chemical": "everolimus", "disease": "AL"}
+{"id": 38, "chemical": "everolimus", "disease": "proteinuria"}
+{"id": 39, "chemical": "tenofovir disoproxil fumarate", "disease": "acute kidney injury"}
+{"id": 39, "chemical": "tenofovir disoproxil fumarate", "disease": "Fanconi syndrome"}
+{"id": 40, "chemical": "thiopentone", "disease": "postoperative delirium"}
+{"id": 40, "chemical": "thiopentone", "disease": "delirium"}
+{"id": 41, "chemical": "methamphetamine", "disease": "depressive"}
+{"id": 42, "chemical": "Linezolid", "disease": "optic neuropathy"}
+{"id": 42, "chemical": "Linezolid", "disease": "optic disc edema"}
+{"id": 43, "chemical": "levobupivacaine", "disease": "cardiovascular collapse"}
+{"id": 44, "chemical": "heparin", "disease": "thrombocytopenia type II"}
+{"id": 45, "chemical": "Zolmitriptan", "disease": "coronary artery vasospasm"}
+{"id": 45, "chemical": "Zolmitriptan", "disease": "Takotsubo syndrome"}
+{"id": 46, "chemical": "3.4-methylenedioxymethamphetamine", "disease": "sleep disturbance"}
+{"id": 46, "chemical": "3.4-methylenedioxymethamphetamine", "disease": "impulsiveness"}
+{"id": 46, "chemical": "3.4-methylenedioxymethamphetamine", "disease": "Depression"}
+{"id": 47, "chemical": "levodopa", "disease": "visual hallucinations"}
+{"id": 47, "chemical": "levodopa", "disease": "dyskinesia"}
+{"id": 48, "chemical": "diazinon", "disease": "hyperlipemia"}
+{"id": 49, "chemical": "methylprednisolone", "disease": "neutropenia"}
+{"id": 49, "chemical": "GEM", "disease": "thrombocytopenia"}
+{"id": 49, "chemical": "methylprednisolone", "disease": "thrombocytopenia"}
+{"id": 49, "chemical": "GEM", "disease": "neutropenia"}
+{"id": 50, "chemical": "ecstasy", "disease": "depression"}
+{"id": 51, "chemical": "Ifosfamide", "disease": "convulsions"}
+{"id": 51, "chemical": "Ifosfamide", "disease": "non-convulsive status epilepticus"}
+{"id": 52, "chemical": "contrast", "disease": "nephropathy"}
+{"id": 52, "chemical": "irinotecan", "disease": "nephropathy"}
+{"id": 53, "chemical": "desvenlafaxine", "disease": "Syndrome of inappropriate antidiuretic hormone"}
+{"id": 53, "chemical": "desvenlafaxine", "disease": "anxiety"}
+{"id": 53, "chemical": "desvenlafaxine", "disease": "hyponatraemia"}
+{"id": 53, "chemical": "desvenlafaxine", "disease": "confusion"}
+{"id": 53, "chemical": "desvenlafaxine", "disease": "nausea"}
+{"id": 54, "chemical": "doxorubicin", "disease": "cardiotoxicity"}
+{"id": 54, "chemical": "doxorubicin", "disease": "necrosis"}
+{"id": 55, "chemical": "Tacrolimus", "disease": "seizure"}
+{"id": 56, "chemical": "scopolamine", "disease": "amnesia"}
+{"id": 57, "chemical": "morphine", "disease": "amnesia"}
+{"id": 58, "chemical": "Streptozotocin", "disease": "neuroinflammation"}
+{"id": 58, "chemical": "Streptozotocin", "disease": "memory impairment"}
+{"id": 59, "chemical": "contrast", "disease": "acute renal failure"}
+{"id": 60, "chemical": "methotrexate", "disease": "attention problems"}
+{"id": 60, "chemical": "methotrexate", "disease": "leukoencephalopathy"}
+{"id": 61, "chemical": "Tranexamic acid", "disease": "tonic clonic convulsions"}
+{"id": 62, "chemical": "bupivacaine", "disease": "asystole"}
+{"id": 62, "chemical": "bupivacaine", "disease": "cardiotoxicity"}
+{"id": 63, "chemical": "Fluvastatin", "disease": "abdominal pain"}
+{"id": 63, "chemical": "Fluvastatin", "disease": "Drug-Induced Acute Liver Injury"}
+{"id": 63, "chemical": "Fluvastatin", "disease": "anorexia"}
+{"id": 63, "chemical": "Fluvastatin", "disease": "nausea"}
+{"id": 64, "chemical": "Fluconazole", "disease": "agranulocytosis"}
+{"id": 64, "chemical": "Fluconazole", "disease": "thrombocytopenia"}
+{"id": 65, "chemical": "epirubicine", "disease": "cardiotoxicity"}
+{"id": 65, "chemical": "epirubicine", "disease": "heart failure"}
+{"id": 66, "chemical": "etomidate", "disease": "myoclonus"}
+{"id": 67, "chemical": "phosphorus", "disease": "acute hepatitis"}
+{"id": 67, "chemical": "phosphorus", "disease": "Cholestatic"}
+{"id": 67, "chemical": "phosphorus", "disease": "acute liver failure"}
+{"id": 68, "chemical": "dexmedetomidine", "disease": "bradycardia"}
+{"id": 68, "chemical": "dexmedetomidine", "disease": "Vasovagal syncope"}
+{"id": 69, "chemical": "quetiapine", "disease": "agitation"}
+{"id": 70, "chemical": "dexamethasone", "disease": "hypertension"}
+{"id": 70, "chemical": "dexamethasone", "disease": "weight loss"}
+{"id": 71, "chemical": "tranexamic acid", "disease": "convulsive"}
+{"id": 72, "chemical": "ecstasy", "disease": "sleep-related impairments"}
+{"id": 72, "chemical": "ecstasy", "disease": "Dysfunctional overnight memory"}
+{"id": 73, "chemical": "valproate", "disease": "delusions"}
+{"id": 73, "chemical": "valproate", "disease": "confusion"}
+{"id": 73, "chemical": "valproate", "disease": "auditory hallucinations"}
+{"id": 74, "chemical": "pethidine", "disease": "dysmetria"}
+{"id": 74, "chemical": "pethidine", "disease": "nausea"}
+{"id": 74, "chemical": "norpethidine", "disease": "seizure"}
+{"id": 74, "chemical": "pethidine", "disease": "dysarthria"}
+{"id": 74, "chemical": "pethidine", "disease": "vomiting"}
+{"id": 74, "chemical": "pethidine", "disease": "hypotension"}
+{"id": 75, "chemical": "ketoconazole", "disease": "maculopapular eruption"}
+{"id": 76, "chemical": "Pilsicainide", "disease": "Torsades de Pointes"}
+{"id": 76, "chemical": "Pilsicainide", "disease": "Sudden Cardiac Death"}
+{"id": 77, "chemical": "All-trans retinoic acid", "disease": "myositis"}
+{"id": 78, "chemical": "cyclophosphamide", "disease": "Neutropenia"}
+{"id": 78, "chemical": "lomustine", "disease": "Neutropenia"}
+{"id": 79, "chemical": "Nelarabine", "disease": "peripheral neuropathy"}
+{"id": 80, "chemical": "Valproate", "disease": "impaired consciousness"}
+{"id": 80, "chemical": "Valproate", "disease": "hyperammonemic"}
+{"id": 81, "chemical": "dexamethasone", "disease": "Necrotising fasciitis"}
+{"id": 81, "chemical": "bortezomib", "disease": "Necrotising fasciitis"}
+{"id": 82, "chemical": "doxorubicin", "disease": "fibrosis"}
+{"id": 82, "chemical": "doxorubicin", "disease": "cardiomyopathy"}
+{"id": 82, "chemical": "doxorubicin", "disease": "LV dysfunction"}
+{"id": 83, "chemical": "capsaicin", "disease": "hyperalgesia"}
+{"id": 84, "chemical": "dexamethasone", "disease": "glaucoma"}
+{"id": 84, "chemical": "dexamethasone", "disease": "axonal degeneration"}
+{"id": 84, "chemical": "dexamethasone", "disease": "ocular hypertension"}
+{"id": 85, "chemical": "morphine", "disease": "hyperalgesia"}
+{"id": 86, "chemical": "propofol", "disease": "bradycardia"}
+{"id": 86, "chemical": "dexmedetomidine", "disease": "hypotension"}
+{"id": 86, "chemical": "dexmedetomidine", "disease": "bradycardia"}
+{"id": 86, "chemical": "propofol", "disease": "hypotension"}
+{"id": 87, "chemical": "doxorubicin", "disease": "Cardiac disturbances"}
+{"id": 88, "chemical": "Amiodarone", "disease": "myxoedema"}
+{"id": 88, "chemical": "Amiodarone", "disease": "bradycardia"}
+{"id": 88, "chemical": "Amiodarone", "disease": "hypothermia"}
+{"id": 88, "chemical": "Amiodarone", "disease": "respiratory failure"}
+{"id": 88, "chemical": "Amiodarone", "disease": "coma"}
+{"id": 89, "chemical": "heparin", "disease": "thrombocytopenia"}
+{"id": 89, "chemical": "heparin", "disease": "pulmonary embolism"}
+{"id": 89, "chemical": "heparin", "disease": "DVT"}
+{"id": 90, "chemical": "apomorphine", "disease": "schizophrenia"}
+{"id": 90, "chemical": "amphetamine", "disease": "schizophrenia"}
+{"id": 90, "chemical": "haloperidol", "disease": "catalepsy"}
+{"id": 90, "chemical": "haloperidol", "disease": "schizophrenia"}
+{"id": 91, "chemical": "Citalopram", "disease": "Torsade de Pointes"}
+{"id": 91, "chemical": "Terfenadine", "disease": "Torsade de Pointes"}
+{"id": 92, "chemical": "S-53482", "disease": "growth retardation"}
+{"id": 92, "chemical": "S-23121", "disease": "growth retardation"}
+{"id": 92, "chemical": "S-23121", "disease": "teratogenicity"}
+{"id": 92, "chemical": "S-23121", "disease": "embryolethality"}
+{"id": 92, "chemical": "S-53482", "disease": "embryolethality"}
+{"id": 92, "chemical": "S-53482", "disease": "teratogenicity"}
+{"id": 92, "chemical": "S-23121", "disease": "ventricular septal defects"}
+{"id": 92, "chemical": "S-53482", "disease": "ventricular septal defects"}
+{"id": 93, "chemical": "Cisplatin", "disease": "acute kidney injury"}
+{"id": 94, "chemical": "pentylenetetrazole", "disease": "memory impairments"}
+{"id": 94, "chemical": "pentylenetetrazole", "disease": "learning impairments"}
+{"id": 94, "chemical": "pentylenetetrazole", "disease": "Cognitive impairment"}
+{"id": 94, "chemical": "pentylenetetrazole", "disease": "seizures"}
+{"id": 95, "chemical": "Doxorubicin", "disease": "heart failure"}
+{"id": 96, "chemical": "Metronidazole", "disease": "encephalopathy"}
+{"id": 97, "chemical": "Aconitine", "disease": "poisoning"}
+{"id": 97, "chemical": "Aconitine", "disease": "cardiotoxicity"}
+{"id": 97, "chemical": "Aconitine", "disease": "arrhythmia"}
+{"id": 98, "chemical": "isoproterenol", "disease": "myocardial infarction"}
+{"id": 98, "chemical": "isoproterenol", "disease": "left ventricular dysfunction"}
+{"id": 99, "chemical": "tetrabenazine", "disease": "Neuroleptic malignant syndrome"}
+{"id": 99, "chemical": "tiapride", "disease": "Neuroleptic malignant syndrome"}
+{"id": 100, "chemical": "metoprolol", "disease": "bradycardia"}
+{"id": 100, "chemical": "terbinafine", "disease": "bradycardia"}
+{"id": 101, "chemical": "ethambutol", "disease": "polyneuropathy"}
+{"id": 101, "chemical": "ethambutol", "disease": "visual loss"}
+{"id": 101, "chemical": "ethambutol", "disease": "optic neuropathy"}
+{"id": 101, "chemical": "ethambutol", "disease": "paresthesias"}
+{"id": 102, "chemical": "streptozotocin", "disease": "memory impairment"}
+{"id": 102, "chemical": "flutamide", "disease": "memory impairment"}
+{"id": 102, "chemical": "letrozole", "disease": "memory impairment"}
+{"id": 102, "chemical": "tamoxifen", "disease": "memory impairment"}
+{"id": 103, "chemical": "pilocarpine", "disease": "seizures"}
+{"id": 103, "chemical": "pilocarpine", "disease": "status epilepticus"}
+{"id": 104, "chemical": "tobramycin", "disease": "acute kidney injury"}
+{"id": 104, "chemical": "vancomycin", "disease": "acute kidney injury"}
+{"id": 104, "chemical": "gentamicin", "disease": "acute kidney injury"}
+{"id": 105, "chemical": "telaprevir", "disease": "Rhabdomyolysis"}
+{"id": 105, "chemical": "simvastatin", "disease": "Rhabdomyolysis"}
+{"id": 105, "chemical": "simvastatin", "disease": "muscle toxicity"}
+{"id": 106, "chemical": "dexamethasone", "disease": "Peripheral neuropathy"}
+{"id": 106, "chemical": "thalidomide", "disease": "Peripheral neuropathy"}
+{"id": 106, "chemical": "bortezomib", "disease": "neutropenia"}
+{"id": 106, "chemical": "thalidomide", "disease": "thrombocytopenia"}
+{"id": 106, "chemical": "bortezomib", "disease": "thrombocytopenia"}
+{"id": 106, "chemical": "thalidomide", "disease": "neutropenia"}
+{"id": 106, "chemical": "bortezomib", "disease": "Peripheral neuropathy"}
+{"id": 106, "chemical": "dexamethasone", "disease": "thrombocytopenia"}
+{"id": 106, "chemical": "dexamethasone", "disease": "neutropenia"}
+{"id": 107, "chemical": "cyclosporine", "disease": "nephropathy"}
+{"id": 107, "chemical": "sirolimus", "disease": "proteinuria"}
+{"id": 108, "chemical": "cisplatin", "disease": "acute tubular necrosis"}
+{"id": 108, "chemical": "cisplatin", "disease": "acute renal injury"}
+{"id": 108, "chemical": "cisplatin", "disease": "weight loss"}
+{"id": 109, "chemical": "fluocinolone acetonide", "disease": "raised intraocular pressure"}
+{"id": 109, "chemical": "fluocinolone acetonide", "disease": "cataract"}
+{"id": 110, "chemical": "succinylcholine", "disease": "fasciculation"}
+{"id": 110, "chemical": "succinylcholine", "disease": "myalgia"}
+{"id": 111, "chemical": "lithium", "disease": "polyuria"}
+{"id": 111, "chemical": "lithium", "disease": "nephrogenic diabetes insipidus"}
+{"id": 112, "chemical": "Amlodipine", "disease": "Dysguesia"}
+{"id": 113, "chemical": "clarithromycin", "disease": "Rhabdomyolysis"}
+{"id": 113, "chemical": "simvastatin", "disease": "Rhabdomyolysis"}
+{"id": 114, "chemical": "mivacurium", "disease": "apnea"}
+{"id": 114, "chemical": "suxamethonium", "disease": "apnea"}
+{"id": 114, "chemical": "mivacurium", "disease": "Butyrylcholinesterase deficiency"}
+{"id": 114, "chemical": "suxamethonium", "disease": "Butyrylcholinesterase deficiency"}
+{"id": 115, "chemical": "artesunate", "disease": "hemolytic anemia"}
+{"id": 116, "chemical": "isoproterenol", "disease": "myocardial ischemia"}
+{"id": 116, "chemical": "isoproterenol", "disease": "ventricular remodeling"}
+{"id": 117, "chemical": "Quetiapine", "disease": "neutropenia"}
+{"id": 117, "chemical": "Quetiapine", "disease": "leucopenia"}
+{"id": 117, "chemical": "Quetiapine", "disease": "fever"}
+{"id": 118, "chemical": "steroid", "disease": "paresthesia"}
+{"id": 119, "chemical": "maleate", "disease": "proteinuria"}
+{"id": 119, "chemical": "maleate", "disease": "necrosis"}
+{"id": 119, "chemical": "maleate", "disease": "nephrotoxicity"}
+{"id": 120, "chemical": "diazinon", "disease": "lung cancer"}
+{"id": 121, "chemical": "particulate matter", "disease": "Parkinson's Disease"}
+{"id": 121, "chemical": "Ozone", "disease": "Parkinson's Disease"}
+{"id": 122, "chemical": "caffeine", "disease": "dysplasia of fetal kidneys"}
+{"id": 122, "chemical": "caffeine", "disease": "interstitial fibrosis"}
+{"id": 122, "chemical": "caffeine", "disease": "intrauterine growth retardation"}
+{"id": 123, "chemical": "metolachlor", "disease": "follicular cell lymphoma"}
+{"id": 123, "chemical": "metolachlor", "disease": "liver neoplasms"}
+{"id": 124, "chemical": "inorganic arsenic", "disease": "cancer"}
+{"id": 125, "chemical": "chloroform", "disease": "arrhythmia"}
+{"id": 125, "chemical": "BaCl2", "disease": "arrhythmia"}
+{"id": 125, "chemical": "aconitine", "disease": "arrhythmia"}
+{"id": 125, "chemical": "adrenaline", "disease": "arrhythmia"}
+{"id": 125, "chemical": "strophantine G", "disease": "arrhythmia"}
+{"id": 126, "chemical": "Dianabol", "disease": "muscular dystrophy"}
+{"id": 126, "chemical": "vitamin E", "disease": "muscular dystrophy"}
+{"id": 127, "chemical": "warfarin", "disease": "hemorrhage"}
+{"id": 127, "chemical": "warfarin", "disease": "pulmonary hemorrhage"}
+{"id": 127, "chemical": "warfarin", "disease": "cerebral hemorrhage"}
+{"id": 127, "chemical": "warfarin", "disease": "stippled epiphyses"}
+{"id": 128, "chemical": "Isradipine", "disease": "headache"}
+{"id": 128, "chemical": "Isradipine", "disease": "dizziness"}
+{"id": 128, "chemical": "Isradipine", "disease": "flushing"}
+{"id": 129, "chemical": "salbutamol", "disease": "tremor"}
+{"id": 130, "chemical": "caffeine", "disease": "tremors"}
+{"id": 130, "chemical": "caffeine", "disease": "nausea"}
+{"id": 130, "chemical": "caffeine", "disease": "anxiety"}
+{"id": 131, "chemical": "doxorubicin", "disease": "heart failure"}
+{"id": 131, "chemical": "cobalt", "disease": "cardiomyopathy"}
+{"id": 132, "chemical": "caffeine", "disease": "clonic seizure"}
+{"id": 133, "chemical": "cyclophosphamide", "disease": "hematuria"}
+{"id": 133, "chemical": "cyclophosphamide", "disease": "carcinoma"}
+{"id": 133, "chemical": "cyclophosphamide", "disease": "carcinomas of the urinary bladder"}
+{"id": 134, "chemical": "carbetocin", "disease": "retained placenta"}
+{"id": 134, "chemical": "carbetocin", "disease": "vomiting"}
+{"id": 134, "chemical": "carbetocin", "disease": "blood loss"}
+{"id": 134, "chemical": "carbetocin", "disease": "abdominal pain"}
+{"id": 135, "chemical": "cocaine", "disease": "chest pain"}
+{"id": 136, "chemical": "Amiodarone", "disease": "torsade de pointes"}
+{"id": 137, "chemical": "melphalan", "disease": "Acute renal insufficiency"}
+{"id": 138, "chemical": "cocaine", "disease": "Impaired fear recognition"}
+{"id": 139, "chemical": "crack cocaine", "disease": "Corneal ulcers"}
+{"id": 140, "chemical": "Levetiracetam", "disease": "lethargy"}
+{"id": 141, "chemical": "heroin", "disease": "infarction of the globus pallidus"}
+{"id": 141, "chemical": "cocaine", "disease": "ischemia of the globus pallidus"}
+{"id": 141, "chemical": "alcohol", "disease": "ischemic stroke"}
+{"id": 141, "chemical": "alcohol", "disease": "haemorrhagic stroke"}
+{"id": 142, "chemical": "methotrexate", "disease": "Acute renal failure"}
+{"id": 143, "chemical": "warfarin", "disease": "intracerebral hemorrhage"}
+{"id": 144, "chemical": "risperidone", "disease": "hyperprolactinemia"}
+{"id": 145, "chemical": "clonidine", "disease": "cataleptic"}
+{"id": 145, "chemical": "fentanyl", "disease": "cataleptic"}
+{"id": 145, "chemical": "naphazoline", "disease": "cataleptic"}
+{"id": 145, "chemical": "codeine", "disease": "cataleptic"}
+{"id": 145, "chemical": "xylometazoline", "disease": "cataleptic"}
+{"id": 145, "chemical": "morphine", "disease": "cataleptic"}
+{"id": 146, "chemical": "propranolol", "disease": "Hypertension"}
+{"id": 147, "chemical": "oestrogen", "disease": "hyperplasia"}
+{"id": 148, "chemical": "diphenylhydantoin", "disease": "toxic dermatitis"}
+{"id": 148, "chemical": "diphenylhydantoin", "disease": "lymphadenopathy"}
+{"id": 148, "chemical": "diphenylhydantoin", "disease": "Pure red cell aplasia"}
+{"id": 149, "chemical": "tobramycin", "disease": "Azotemia"}
+{"id": 149, "chemical": "carbenicillin", "disease": "Azotemia"}
+{"id": 150, "chemical": "Epsilon aminocaproic acid", "disease": "subarachnoid hemorrhage"}
+{"id": 150, "chemical": "Epsilon aminocaproic acid", "disease": "acute renal artery thrombosis"}
+{"id": 150, "chemical": "Epsilon aminocaproic acid", "disease": "thrombotic"}
+{"id": 150, "chemical": "Epsilon aminocaproic acid", "disease": "intracranial vascular thrombosis"}
+{"id": 150, "chemical": "Epsilon aminocaproic acid", "disease": "hypertension"}
+{"id": 151, "chemical": "propranolol", "disease": "Growth retardation"}
+{"id": 152, "chemical": "propranolol", "disease": "hypertension"}
+{"id": 153, "chemical": "etomidate", "disease": "myoclonia"}
+{"id": 153, "chemical": "etomidate", "disease": "pain"}
+{"id": 154, "chemical": "fenoterol-hydrobromide", "disease": "tremor"}
+{"id": 154, "chemical": "ritodrin-HCl", "disease": "tremor"}
+{"id": 155, "chemical": "methylprednisolone acetate", "disease": "retinal artery and choriocapillaris occlusion"}
+{"id": 156, "chemical": "Cephalothin", "disease": "hemolytic anemia"}
+{"id": 157, "chemical": "L-dopa", "disease": "Hypokalemia"}
+{"id": 158, "chemical": "Phenytoin", "disease": "encephalopathy"}
+{"id": 159, "chemical": "isoproterenol", "disease": "myocardial infarction"}
+{"id": 160, "chemical": "aminoglycoside", "disease": "acute renal failure"}
+{"id": 160, "chemical": "kanamycin", "disease": "acute renal failure"}
+{"id": 161, "chemical": "methotrexate", "disease": "Paraplegia"}
+{"id": 162, "chemical": "carbachol", "disease": "tachycardia"}
+{"id": 162, "chemical": "carbachol", "disease": "enlargement of pulse pressure"}
+{"id": 162, "chemical": "desmethylimipramine", "disease": "enlargement of pulse pressure"}
+{"id": 163, "chemical": "amino", "disease": "Hyperglycemic"}
+{"id": 164, "chemical": "tetracycline", "disease": "Fatty liver"}
+{"id": 165, "chemical": "vincristine", "disease": "sensory and motor dysfunction"}
+{"id": 165, "chemical": "vincristine", "disease": "myeloencephalopathy"}
+{"id": 166, "chemical": "bupivacaine", "disease": "arrhythmic"}
+{"id": 166, "chemical": "Estradiol", "disease": "arrhythmic"}
+{"id": 166, "chemical": "Progesterone", "disease": "arrhythmic"}
+{"id": 167, "chemical": "desferrioxamine", "disease": "renal insufficiency"}
+{"id": 168, "chemical": "bromocriptine", "disease": "psychiatric symptoms"}
+{"id": 168, "chemical": "Neuroleptic", "disease": "amenorrhea"}
+{"id": 168, "chemical": "Neuroleptic", "disease": "oligomenorrhea"}
+{"id": 168, "chemical": "Neuroleptic", "disease": "hyperprolactinemia"}
+{"id": 169, "chemical": "Ethacrynic acid", "disease": "convulsions"}
+{"id": 170, "chemical": "isoniazide", "disease": "convulsions"}
+{"id": 171, "chemical": "bromocriptine", "disease": "myocardial infarction"}
+{"id": 172, "chemical": "lithium", "disease": "Asterixis"}
+{"id": 172, "chemical": "clozapine", "disease": "Asterixis"}
+{"id": 173, "chemical": "levodopa", "disease": "hypotensive"}
+{"id": 174, "chemical": "vincristine", "disease": "Syndrome of inappropriate secretion of antidiuretic hormone"}
+{"id": 175, "chemical": "digoxin", "disease": "arrhythmias"}
+{"id": 176, "chemical": "rifampin", "disease": "acute renal failure"}
+{"id": 176, "chemical": "rifampin", "disease": "hemolysis"}
+{"id": 177, "chemical": "Zidovudine", "disease": "hepatitis"}
+{"id": 178, "chemical": "coumadin", "disease": "Thoracic hematomyelia"}
+{"id": 179, "chemical": "fluoxetine", "disease": "Mania"}
+{"id": 180, "chemical": "Gemfibrozil", "disease": "Myositis"}
+{"id": 180, "chemical": "lovastatin", "disease": "Myositis"}
+{"id": 181, "chemical": "corticosteroid", "disease": "peliosis"}
+{"id": 181, "chemical": "androgen", "disease": "peliosis"}
+{"id": 181, "chemical": "corticosteroid", "disease": "Hepatocellular carcinoma"}
+{"id": 181, "chemical": "androgen", "disease": "Hepatocellular carcinoma"}
+{"id": 182, "chemical": "trimethaphan", "disease": "hypotension"}
+{"id": 182, "chemical": "trimethaphan", "disease": "tachycardia"}
+{"id": 183, "chemical": "pilocarpine", "disease": "Damage of substantia nigra pars reticulata"}
+{"id": 183, "chemical": "pilocarpine", "disease": "status epilepticus"}
+{"id": 183, "chemical": "pilocarpine", "disease": "neurotransmitter dysfunction"}
+{"id": 184, "chemical": "doxorubicin", "disease": "cardiotoxicity"}
+{"id": 185, "chemical": "capsaicin", "disease": "pain"}
+{"id": 185, "chemical": "capsaicin", "disease": "mastitis"}
+{"id": 186, "chemical": "fluoxetine", "disease": "paranoia"}
+{"id": 186, "chemical": "amitriptyline", "disease": "paranoia"}
+{"id": 187, "chemical": "diethylcarbamazine", "disease": "encephalitis"}
+{"id": 188, "chemical": "misoprostol", "disease": "Delirium"}
+{"id": 189, "chemical": "oxidized glutathione", "disease": "reperfusion injury"}
+{"id": 190, "chemical": "cimetidine", "disease": "hypotension"}
+{"id": 191, "chemical": "rifampicin", "disease": "Acute renal failure"}
+{"id": 192, "chemical": "cytosine arabinoside", "disease": "polyneuropathy"}
+{"id": 192, "chemical": "methotrexate", "disease": "polyneuropathy"}
+{"id": 192, "chemical": "thiotepa", "disease": "polyneuropathy"}
+{"id": 192, "chemical": "cytosine arabinoside", "disease": "neurologic toxicity"}
+{"id": 192, "chemical": "methotrexate", "disease": "neurologic toxicity"}
+{"id": 192, "chemical": "thiotepa", "disease": "neurologic toxicity"}
+{"id": 193, "chemical": "cromakalim", "disease": "hypotension"}
+{"id": 193, "chemical": "pinacidil", "disease": "tachycardia"}
+{"id": 193, "chemical": "cromakalim", "disease": "tachycardia"}
+{"id": 193, "chemical": "pinacidil", "disease": "hypotension"}
+{"id": 194, "chemical": "Mefenamic acid", "disease": "neutropenia"}
+{"id": 194, "chemical": "Mefenamic acid", "disease": "renal failure"}
+{"id": 195, "chemical": "calcium carbonate", "disease": "hypercalcemia"}
+{"id": 196, "chemical": "Methyldopa", "disease": "hemolytic anemia"}
+{"id": 197, "chemical": "danazol", "disease": "weight gain"}
+{"id": 197, "chemical": "danazol", "disease": "muscle cramps"}
+{"id": 197, "chemical": "danazol", "disease": "Menstrual abnormalities"}
+{"id": 198, "chemical": "chlorhexidine diphosphanilate", "disease": "pain"}
+{"id": 199, "chemical": "busulfan", "disease": "seizures"}
+{"id": 200, "chemical": "d-tubocurarine", "disease": "hypotension"}
+{"id": 201, "chemical": "lindane", "disease": "seizures"}
+{"id": 202, "chemical": "propylthiouracil", "disease": "lupus-like syndrome"}
+{"id": 202, "chemical": "methimazole", "disease": "hepatocellular necrosis"}
+{"id": 202, "chemical": "propylthiouracil", "disease": "hepatitis"}
+{"id": 203, "chemical": "pilocarpine", "disease": "status epilepticus"}
+{"id": 203, "chemical": "lithium", "disease": "status epilepticus"}
+{"id": 204, "chemical": "Nifedipine", "disease": "tachycardia"}
+{"id": 204, "chemical": "Nifedipine", "disease": "bradycardia"}
+{"id": 205, "chemical": "cocaine", "disease": "seizures"}
+{"id": 205, "chemical": "amphetamine", "disease": "seizures"}
+{"id": 206, "chemical": "diethylstilbesterol", "disease": "renal carcinomas"}
+{"id": 207, "chemical": "biperiden", "disease": "Bradycardia"}
+{"id": 207, "chemical": "biperiden", "disease": "dysphagia"}
+{"id": 207, "chemical": "biperiden", "disease": "dysarthria"}
+{"id": 208, "chemical": "enflurane", "disease": "hypotension"}
+{"id": 208, "chemical": "isoflurane", "disease": "hypotension"}
+{"id": 208, "chemical": "halothane", "disease": "hypotension"}
+{"id": 208, "chemical": "labetalol", "disease": "hypotension"}
+{"id": 209, "chemical": "fluorescein", "disease": "Tonic-clonic seizures"}
+{"id": 210, "chemical": "ouabain", "disease": "ventricular tachycardia"}
+{"id": 210, "chemical": "strophanthidin", "disease": "arrhythmia"}
+{"id": 211, "chemical": "Phenytoin", "disease": "hepatic failure"}
+{"id": 211, "chemical": "Phenytoin", "disease": "drug hypersensitivity"}
+{"id": 212, "chemical": "pertussis vaccine", "disease": "encephalopathy"}
+{"id": 213, "chemical": "adrenaline", "disease": "hypertension"}
+{"id": 214, "chemical": "gentamicin", "disease": "acute renal failure"}
+{"id": 215, "chemical": "isotretinoin", "disease": "blurred vision"}
+{"id": 215, "chemical": "isotretinoin", "disease": "corneal opacities"}
+{"id": 215, "chemical": "isotretinoin", "disease": "papilledema"}
+{"id": 215, "chemical": "isotretinoin", "disease": "Blepharoconjunctivitis"}
+{"id": 215, "chemical": "isotretinoin", "disease": "pseudotumor cerebri"}
+{"id": 215, "chemical": "isotretinoin", "disease": "dry eyes"}
+{"id": 215, "chemical": "isotretinoin", "disease": "photodermatitis"}
+{"id": 216, "chemical": "Procaterol", "disease": "tremorgenic"}
+{"id": 217, "chemical": "isoproterenol", "disease": "heart hypertrophy"}
+{"id": 218, "chemical": "theophylline", "disease": "tremors"}
+{"id": 218, "chemical": "theophylline", "disease": "nausea"}
+{"id": 218, "chemical": "theophylline", "disease": "vomiting"}
+{"id": 219, "chemical": "Penicillin", "disease": "anaphylaxis"}
+{"id": 220, "chemical": "valproic acid", "disease": "dementia"}
+{"id": 220, "chemical": "valproic acid", "disease": "hyperammonemia"}
+{"id": 221, "chemical": "scopolamine", "disease": "amnesia"}
+{"id": 222, "chemical": "cyclophosphamide", "disease": "lesions of the urinary bladder"}
+{"id": 223, "chemical": "suxamethonium", "disease": "muscle fasciculations"}
+{"id": 224, "chemical": "isoproterenol", "disease": "fibrosis"}
+{"id": 224, "chemical": "streptozotocin", "disease": "diabetic"}
+{"id": 225, "chemical": "phenylbutazone", "disease": "seizures"}
+{"id": 225, "chemical": "sodium salicylate", "disease": "seizures"}
+{"id": 225, "chemical": "pilocarpine", "disease": "seizures"}
+{"id": 225, "chemical": "pilocarpine", "disease": "status epilepticus"}
+{"id": 226, "chemical": "etoposide", "disease": "confusion"}
+{"id": 226, "chemical": "etoposide", "disease": "seizure"}
+{"id": 226, "chemical": "etoposide", "disease": "papilledema"}
+{"id": 227, "chemical": "thiabendazole", "disease": "drug-induced liver damage"}
+{"id": 227, "chemical": "thiabendazole", "disease": "Cholestasis"}
+{"id": 228, "chemical": "calcium channel blockers", "disease": "anorexia"}
+{"id": 228, "chemical": "calcium channel blockers", "disease": "dizziness"}
+{"id": 228, "chemical": "calcium channel blockers", "disease": "edema"}
+{"id": 228, "chemical": "calcium channel blockers", "disease": "headache"}
+{"id": 228, "chemical": "calcium channel blockers", "disease": "nausea"}
+{"id": 228, "chemical": "calcium channel blockers", "disease": "flushing"}
+{"id": 229, "chemical": "aminonucleoside", "disease": "focal segmental glomerular sclerosis"}
+{"id": 229, "chemical": "aminonucleoside", "disease": "nephrotic syndrome"}
+{"id": 229, "chemical": "aminonucleoside", "disease": "end-stage renal disease"}
+{"id": 230, "chemical": "aminophylline", "disease": "seizures"}
+{"id": 231, "chemical": "mefenamic acid", "disease": "nephropathy"}
+{"id": 231, "chemical": "indomethacin", "disease": "Hyperkalemia"}
+{"id": 231, "chemical": "naproxen", "disease": "hypoaldosteronism"}
+{"id": 231, "chemical": "naproxen", "disease": "Hyperkalemia"}
+{"id": 231, "chemical": "indomethacin", "disease": "hypoaldosteronism"}
+{"id": 232, "chemical": "5-fluorouracil", "disease": "Hypotension"}
+{"id": 232, "chemical": "5-fluorouracil", "disease": "left ventricular dysfunction"}
+{"id": 232, "chemical": "cisplatin", "disease": "Hypotension"}
+{"id": 232, "chemical": "cisplatin", "disease": "left ventricular dysfunction"}
+{"id": 233, "chemical": "carbamazepine", "disease": "aplastic anemia"}
+{"id": 234, "chemical": "clonidine", "disease": "hypotension"}
+{"id": 234, "chemical": "clonidine", "disease": "bradycardia"}
+{"id": 235, "chemical": "imipramine", "disease": "Hypertension"}
+{"id": 236, "chemical": "beclomethasone dipropionate", "disease": "oral candidiasis"}
+{"id": 236, "chemical": "beclomethasone dipropionate", "disease": "hoarseness"}
+{"id": 237, "chemical": "Cyclophosphamide", "disease": "congestive heart failure"}
+{"id": 238, "chemical": "aminoglycoside", "disease": "nephrotoxicity"}
+{"id": 239, "chemical": "Flurothyl", "disease": "hypothermia"}
+{"id": 240, "chemical": "pilocarpine", "disease": "seizures"}
+{"id": 241, "chemical": "dipyridamole", "disease": "myocardial ischemia"}
+{"id": 242, "chemical": "methylprednisolone", "disease": "Bradycardia"}
+{"id": 243, "chemical": "carbamazepine", "disease": "oscillopsia"}
+{"id": 244, "chemical": "pentobarbital", "disease": "cardiac failure"}
+{"id": 245, "chemical": "Clonazepam", "disease": "drowsiness"}
+{"id": 245, "chemical": "Clonazepam", "disease": "ataxia"}
+{"id": 246, "chemical": "timolol", "disease": "fatigue"}
+{"id": 246, "chemical": "timolol", "disease": "dizziness"}
+{"id": 246, "chemical": "hydrochlorothiazide", "disease": "fatigue"}
+{"id": 246, "chemical": "hydrochlorothiazide", "disease": "dizziness"}
+{"id": 246, "chemical": "hydrochlorothiazide", "disease": "weakness"}
+{"id": 246, "chemical": "timolol", "disease": "weakness"}
+{"id": 247, "chemical": "aspirin", "disease": "nephropathy"}
+{"id": 248, "chemical": "lidocaine", "disease": "hypotension"}
