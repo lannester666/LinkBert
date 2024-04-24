@@ -50,7 +50,7 @@ from transformers.utils import check_min_version
 from transformers.utils.versions import require_version
 
 from trainer_seqcls import SeqClsTrainer
-
+import argparse
 
 # Will error if the minimal version of Transformers is not installed. Remove at your own risks.
 check_min_version("4.9.0")
@@ -80,7 +80,9 @@ class DataTrainingArguments:
     into argparse arguments to be able to specify them on
     the command line.
     """
-
+    task: Optional[str] = field(
+        default=None,
+    )
     task_name: Optional[str] = field(
         default=None,
         metadata={"help": "The name of the task to train on: " + ", ".join(task_to_keys.keys())},
@@ -172,6 +174,8 @@ class ModelArguments:
 
     model_name_or_path: str = field(
         metadata={"help": "Path to pretrained model or model identifier from huggingface.co/models"}
+    )
+    candidate_file_path: Optional[str] = field(
     )
     config_name: Optional[str] = field(
         default=None, metadata={"help": "Pretrained config name or path if not the same as model_name"}
@@ -297,7 +301,7 @@ def main():
             # Loading a dataset from local csv files
             raw_datasets = load_dataset("csv", data_files=data_files, cache_dir=model_args.cache_dir)
         else:
-            # Loading a dataset from local json files
+            # Loading a dataset from local json files            
             raw_datasets = load_dataset("json", data_files=data_files, cache_dir=model_args.cache_dir)
     # See more about loading any type of standard or custom dataset at
     # https://huggingface.co/docs/datasets/loading_datasets.html.
@@ -426,7 +430,10 @@ def main():
             if is_multiclass_binary:
                 result["label"] = examples["label"]
             else:
-                result["label"] = [(label_to_id[l] if l != -1 else -1) for l in examples["label"]]
+                try:
+                    result["label"] = [(label_to_id[l] if l != -1 else -1) for l in examples["label"]]
+                except:
+                    import pdb; pdb.set_trace()
         return result
 
     with training_args.main_process_first(desc="dataset map pre-processing"):
@@ -554,9 +561,11 @@ def main():
         if data_args.task_name == "mnli":
             tasks.append("mnli-mm")
             eval_datasets.append(raw_datasets["validation_mismatched"])
-
+      
         for eval_dataset, task in zip(eval_datasets, tasks):
             metrics = trainer.evaluate(eval_dataset=eval_dataset)
+            # predictions = np.argmax(results.predictions,axis=1)
+            # import pdb; pdb.set_trace()
 
             max_eval_samples = (
                 data_args.max_eval_samples if data_args.max_eval_samples is not None else len(eval_dataset)
@@ -579,22 +588,110 @@ def main():
         if data_args.task_name == "mnli":
             tasks.append("mnli-mm")
             predict_datasets.append(raw_datasets["test_mismatched"])
-
-        for predict_dataset, task in zip(predict_datasets, tasks):
-            results = trainer.predict(predict_dataset, metric_key_prefix="test")
-            predictions = results.predictions
-            metrics = results.metrics
-            metrics["test_samples"] = len(predict_dataset)
-
-            trainer.log_metrics("test", metrics)
-            trainer.save_metrics("test", metrics)
-            trainer.log(metrics)
-
-            import json
-            output_dir = training_args.output_dir
-            output_path = f"{output_dir}/test_outputs_{task}.json" if task is not None else f"{output_dir}/test_outputs.json"
-            json.dump({"predictions": results.predictions.tolist(), "label_ids": results.label_ids.tolist()},
-                          open(output_path, "w"))
+        
+        import json
+        import jsonlines
+        if data_args.task == 'agac_hf':
+            for predict_dataset, task in zip(predict_datasets, tasks):
+                results = trainer.predict(predict_dataset, metric_key_prefix="test")
+                predictions = np.argmax(results.predictions,axis=1)
+                metrics = results.metrics
+                metrics["test_samples"] = len(predict_dataset)
+                trainer.log_metrics("test", metrics)
+                trainer.save_metrics("test", metrics)
+                trainer.log(metrics)
+                ret = []
+                for prediction in predictions:
+                    relation = label_list[prediction]
+                    ret.append(relation)
+                print(ret)
+                aux_datas = []
+                with open("/home/zhangtaiyan/workspace/comp/LinkBERT/data/seqcls/agac_hf/aux_test.json", 'r') as file:
+                    for line in file:
+                        aux_datas.append(json.loads(line))
+                cur_id = 0
+                answers = [""]*299
+                out_str = ""
+                for rel, aux_data in zip(ret, aux_datas):
+                    if aux_data['id'] > cur_id:
+                        if out_str.endswith(', '):
+                            out_str = out_str[:-2]
+                        answers[cur_id] = out_str
+                        out_str = ""
+                        cur_id = aux_data['id']
+                    if rel != '0':
+                        triplet = (aux_data['gene'], rel, aux_data['disease'])
+                        out_str = out_str + str(triplet).replace("'", "") + ", "
+                if out_str.endswith(', '):
+                            out_str = out_str[:-2]
+                answers.append(out_str)
+                idx = 0
+                modify_lines = []
+                with open(model_args.candidate_file_path, 'r') as file:
+                    for line in file:
+                        data = json.loads(line)
+                        if data["task"] == 1:
+                            data["ideal"]["GENE, FUNCTION, DISEASE"] = answers[idx]
+                            modify_lines.append(data)
+                        else:
+                            modify_lines.append(data)
+                        idx = idx + 1
+                with jsonlines.open(model_args.candidate_file_path, 'w') as writer:
+                    for line in modify_lines:
+                        writer.write(line)
+        elif data_args.task == 'cdr_hf':
+                for predict_dataset, task in zip(predict_datasets, tasks):
+                    results = trainer.predict(predict_dataset, metric_key_prefix="test")
+                    predictions = np.argmax(results.predictions,axis=1)
+                    metrics = results.metrics
+                    metrics["test_samples"] = len(predict_dataset)
+                    trainer.log_metrics("test", metrics)
+                    trainer.save_metrics("test", metrics)
+                    trainer.log(metrics)
+                    ret = []
+                    for prediction in predictions:
+                        relation = label_list[prediction]
+                        ret.append(relation)
+                    print(ret)
+                    aux_datas = []
+                    with open(f"/home/zhangtaiyan/workspace/comp/LinkBERT/data/seqcls/cdr_hf/aux_test.json", 'r') as file:
+                        for line in file:
+                            aux_datas.append(json.loads(line))
+                    cur_id = 25
+                    answers = [""]*299
+                    out_str = ""
+                    for rel, aux_data in zip(ret, aux_datas):
+                        if aux_data['id'] > cur_id:
+                            if out_str.endswith(', '):
+                                out_str = out_str[:-2]
+                            answers[cur_id] = out_str
+                            out_str = ""
+                            cur_id = aux_data['id']
+                        if rel != '0':
+                            triplet = (aux_data['chemical'], aux_data['disease'])
+                            out_str = out_str + str(triplet).replace("'", "") + ", "
+                    if out_str.endswith(', '):
+                                out_str = out_str[:-2]
+                    answers.append(out_str)
+                    idx = 0
+                    modify_lines = []
+                    with open(model_args.candidate_file_path, 'r') as file:
+                        for line in file:
+                            data = json.loads(line)
+                            if data["task"] == 2:
+                                data["ideal"]["chemical, disease"] = answers[idx]
+                                modify_lines.append(data)
+                            else:
+                                modify_lines.append(data)
+                            idx = idx + 1
+                    with jsonlines.open(model_args.candidate_file_path, 'w') as writer:
+                        for line in modify_lines:
+                            writer.write(line)
+        import json
+        output_dir = training_args.output_dir
+        output_path = f"{output_dir}/test_outputs_{task}.json" if task is not None else f"{output_dir}/test_outputs.json"
+        json.dump({"predictions": results.predictions.tolist(), "label_ids": results.label_ids.tolist()},
+                        open(output_path, "w"))
 
             # Removing the `label` columns because it contains -1 and Trainer won't like that.
             # predict_dataset = predict_dataset.remove_columns("label")

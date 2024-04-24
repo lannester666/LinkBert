@@ -1,0 +1,25 @@
+"ideal": {"GENE, FUNCTION, DISEASE": "(DFNB31, REG, Usher syndrome)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": "(PRODH, LOF, Type I hyperprolinemia)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": "(DPYD, REG, Dihydropyrimidine dehydrogenase deficiency)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": "(BTD, LOF, Biotinidase deficiency)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": "(BSCL2, REG, Distal hereditary motor neuropathy type V)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": "(BSCL2, REG, Distal hereditary motor neuropathy type V), (BSCL2, REG, Silver syndrome), (BSCL2, REG, Silver syndrome)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": "(DOK7, REG, French-Canadian patients with a previously undiagnosed proximal myopathy)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": "(PTCH, REG, keratocystic odontogenic tumors)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": "(NOTCH3, REG, CADASIL)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": "(FKRP, REG, Limb Girdle Muscular Dystrophy 2I)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": "(GJB3, REG, Erythrokeratoderma variabilis), (GJB3, REG, Erythrokeratoderma variabilis), (GJB4, REG, Erythrokeratoderma variabilis), (GJB4, REG, Erythrokeratoderma variabilis)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": ""}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": "(PMP22, REG, Charcot-Marie-Tooth disease)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": "(TFAP2A, REG, Branchio-oculo-facial syndrome)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": "(ATP7A, REG, Menkes disease), (ATP7A, REG, Menkes disease), (ATP7A, REG, occipital horn syndrome), (ATP7A, REG, occipital horn syndrome)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": "(AChR, REG, slow-channel congenital myasthenic syndrome)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": "(β-globulin gene, REG, β-thalassaemia intermedia)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": "(COL7A1, REG, dystrophic epidermolysis bullosa)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": "(dystrophin gene, REG, Duchenne muscular dystrophy)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": "(AXIN2, LOF, AXIN2-associated autosomal dominant ectodermal dysplasia and neoplastic syndrome)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": "(chromosome 21, LOF, Down syndrome)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": "(NLRP12, REG, periodic fever syndromes)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": "(SPINK5, REG, Netherton syndrome)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": "(CSTB, REG, Unverricht-Lundborg disease)"}, "task": 1}
+"ideal": {"GENE, FUNCTION, DISEASE": ""}, "task": 1}
